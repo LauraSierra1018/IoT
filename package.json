@@ -1,21 +1,28 @@
 {
   "name": "iot2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node-RED IoT Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LauraSierra1018/IoT.git"
+    "url": "git@github.com:LauraSierra1018/IoT.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Laura Sierra",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/LauraSierra1018/IoT/issues"
   },
-  "homepage": "https://github.com/LauraSierra1018/IoT#readme"
+  "homepage": "https://github.com/LauraSierra1018/IoT#readme",
+  "node-red": {
+    "version": "4.1.11",
+    "settings": {
+      "flowFile": "flows.json",
+      "credentialsFile": "flows_cred.json"
+    }
+  }
 }
